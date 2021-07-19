@@ -1,0 +1,133 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://scontent.frmq2-2.fna.fbcdn.net/v/t1.15752-9/201122846_2931667837114233_7392157526129115207_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=ae9488&_nc_ohc=i6a6BAv_Nq8AX-s82NV&_nc_ht=scontent.frmq2-2.fna&oh=d593380f8e44636bf5ffd346803960d3&oe=60D79D4A",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "我們可以推薦你適合的記帳程式",
+            "weight": "bold",
+            "size": "sm",
+            "wrap": true
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "記帳推薦",
+              "text": "記帳推薦!"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://scontent.frmq2-2.fna.fbcdn.net/v/t1.15752-9/204432320_1420619071650876_524673785896344265_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=ae9488&_nc_ohc=1OjHZDUDjEYAX__gkde&_nc_ht=scontent.frmq2-2.fna&oh=41ee5fe770bc0ddf6abe46006db538c2&oe=60D7B43B",
+        "size": "5xl",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "推薦結果",
+            "weight": "bold",
+            "size": "sm",
+            "wrap": true
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "來看看",
+              "text": "推薦結果"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "size": "xxl",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213",
+        "url": "https://scontent.frmq2-1.fna.fbcdn.net/v/t1.15752-9/201650556_299387628541684_2454630681255452480_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=ae9488&_nc_ohc=z6BrqwlW3z8AX-g_pE5&_nc_ht=scontent.frmq2-1.fna&oh=5f85b27d27a7eda1a94863deb222ce9c&oe=60D7BC6C",
+        "margin": "none"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "推薦回饋",
+            "weight": "bold",
+            "size": "sm",
+            "wrap": true
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "想換記帳程式",
+              "text": "想換記帳程式"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

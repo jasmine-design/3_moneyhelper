@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <link rel="stylesheet" href="./index.css?v7">
+    <link href="./font/GenJyuuGothic-Normal/GenJyuuGothic-Normal.css" type="text/css" rel="stylesheet" />
+    <!-- <link href="./font/GenJyuuGothic-Medium/GenJyuuGothic-Medium.css" type="text/css" rel="stylesheet" /> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <link rel="icon" type="image/png" href="../image/app_icon.png" />
+    <title>群組分帳小幫手</title>
+</head>
+
+<body>
+    <div id="front-cover">
+        <div id="cover-container">
+            <img id="eng-title" src="../image/eng-title.png">
+            <img id="app-icon" src="../image/app_icon.png">
+            <img id="chn-title" src="../image/chn-title.png">
+            <img id="welcome-btn" src="../image/welcome.png">
+        </div>
+        <div id="login-user-container">
+            <div id="login-user-flex">
+            </div>
+        </div>
+    </div>
+    <div id="info-page">
+        <div id="main-page">
+            <div id="account-summary">
+                <p class="acc-name">'S ACCOUNT</p>
+                <p class="acc-debts">TOTAL DEBTS:</p>
+                <div id="payback">
+                    <p class="p-title">我要還</p>
+                    <div class="user-list-container">
+                        <p style="font-size:12px;color:#FFFFFF">Loading...</p>
+                    </div>
+                </div>
+                <div id="paid">
+                    <p class="p-title">我先付</p>
+                    <div class="user-list-container">
+                        <p style="font-size:12px;color:#FFFFFF;">Loading...</p>
+                    </div>
+                </div>
+                <img id="detail-btn" src="../image/detail-btn.png">
+            </div>
+            <div id="group-history">
+                <p style="font-size:12px;">Loading...</p>
+            </div>
+        </div>
+        <div id="detail-page">
+            <div id="account-container">
+                <p class="acc-name">'S ACCOUNT</p>
+                <p class="acc-debts">TOTAL DEBTS:</p>
+                <img class="back-btn" src="../image/back-btn.png">
+            </div>
+
+            <div id="account-info">
+                <div id="payback-container">
+                    <p class="p-title">我要還</p>
+                    <div class="d-list-container">
+                        <p style="font-size:12px;">Loading...</p>
+                    </div>
+                    <div id="border-bot"></div>
+                </div>
+                <div id="paid-container">
+                    <p class="p-title">我先付</p>
+                    <div class="d-list-container">
+                        <p style="font-size:12px;">Loading...</p>
+                    </div>
+                    <div id="border-bot"></div>
+                </div>
+                <div id="acc-history">
+                    <div class="history-grid">
+                        <div>
+                            <p class="time-stamp">5/6 14:00</p>
+                        </div>
+                        <div class="user-name-container">
+                            <p class="user-name">Barry</p>
+                        </div>
+                        <div>
+                            <p class="describe">我已還 50 twd</p>
+                        </div>
+                    </div>
+                    <div class="history-grid">
+                        <div>
+                            <p class="time-stamp">5/6 14:00</p>
+                        </div>
+                        <div class="user-name-container">
+                            <p class="user-name">Barry</p>
+                        </div>
+                        <div>
+                            <p class="describe">我已還 50 twd</p>
+                        </div>
+                    </div>
+                    <div class="history-grid">
+                        <div>
+                            <p class="time-stamp">5/6 14:00</p>
+                        </div>
+                        <div class="user-name-container">
+                            <p class="user-name">Barry</p>
+                        </div>
+                        <div>
+                            <p class="describe">我已還 50 twd</p>
+                        </div>
+                    </div>
+
+                    <div class="history-grid">
+                        <div>
+                            <p class="time-stamp">5/6 14:00</p>
+                        </div>
+                        <div class="user-name-container">
+                            <p class="user-name">Barry</p>
+                        </div>
+                        <div>
+                            <p class="describe">我已還 50 twd</p>
+                        </div>
+                    </div>
+                    <div class="history-grid">
+                        <div>
+                            <p class="time-stamp">5/6 14:00</p>
+                        </div>
+                        <div class="user-name-container">
+                            <p class="user-name">Barry</p>
+                        </div>
+                        <div>
+                            <p class="describe">我已還 50 twd</p>
+                        </div>
+                    </div>
+                    <div class="history-grid">
+                        <div>
+                            <p class="time-stamp">5/6 14:00</p>
+                        </div>
+                        <div class="user-name-container">
+                            <p class="user-name">Barry</p>
+                        </div>
+                        <div>
+                            <p class="describe">我已還 50 twd</p>
+                        </div>
+                    </div>
+                    <div class="history-grid">
+                        <div>
+                            <p class="time-stamp">5/6 14:00</p>
+                        </div>
+                        <div class="user-name-container">
+                            <p class="user-name">Barry</p>
+                        </div>
+                        <div>
+                            <p class="describe">我已還 50 twd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="transparent-blur">
+                <div class="transparent-bg"></div>
+                <div id="confirm-popout">
+                    <div id="payback-describe-container">
+                        <p>我要還</p>
+                        <div class="user-name-container">
+                            <p class="user-name"></p>
+                        </div>
+                        <input type="number" placeholder="輸入金額" min="1"
+                            oninput="validity.valid||(value='');value=Number(value).toString();">
+                        <p>twd</p>
+                    </div>
+                    <div id="share-container">
+                        <p>分享文字到line(手機才有此功能)</p>
+                        <input type="text" placeholder="請輸入分享文字(最多30字)..." maxlength="30">
+                    </div>
+                    <div class="btn-container">
+                        <img class="cancel-btn" src="../image/cancel-btn.png">
+                        <img class="confirm-btn" src="../image/confirm-btn.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bot-blur">
+            <img id="add-btn" src="../image/add-btn.png">
+        </div>
+
+    </div>
+    <div id="add-page">
+        <div id="add-header">
+            <img id="add-account" src="../image/add-account.png">
+            <img id="close-btn" src="../image/close-btn.png">
+        </div>
+        <div id="add-content">
+            <div id="add-category">
+                <img class="add-title" src="../image/add-category.png">
+                <div id="category-flex">
+                    <div id="food" class="">
+                        <img src="../image/food.png">
+                        <p>飲食</p>
+                    </div>
+                    <div id="traffic" class="">
+                        <img src="../image/traffic.png">
+                        <p>交通</p>
+                    </div>
+                    <div id="shopping" class="">
+                        <img src="../image/shopping.png">
+                        <p>購物</p>
+                    </div>
+                    <div id="entertainment" class="">
+                        <img src="../image/entertainment.png">
+                        <p>娛樂</p>
+                    </div>
+                    <div id="study" class="">
+                        <img src="../image/study.png">
+                        <p>學習</p>
+                    </div>
+                    <div id="medical" class="">
+                        <img src="../image/medical.png">
+                        <p>醫療</p>
+                    </div>
+                    <div id="household" class="">
+                        <img src="../image/household.png">
+                        <p>家居</p>
+                    </div>
+                    <div id="cosmetic" class="">
+                        <img src="../image/cosmetic.png">
+                        <p>美容</p>
+                    </div>
+                    <div id="others" class="">
+                        <img src="../image/others.png">
+                        <p>其他</p>
+                    </div>
+                </div>
+            </div>
+            <div id="add-items">
+                <img class="add-title" src="../image/add-items.png">
+                <input type="text" placeholder="請輸入項目(最多15字)..." maxlength="15">
+                <div class="add-bot-border"></div>
+            </div>
+            <div id="add-price">
+                <img class="add-title" src="../image/add-price.png">
+                <input type="number" placeholder="輸入金額" min="1"
+                    oninput="validity.valid||(value='');value=Number(value).toString();">
+                <img id="twd" src="../image/twd.png">
+                <div class="add-bot-border"></div>
+            </div>
+        </div>
+        <div id="share-content">
+            <div id="who-pay">
+                <div class="share-title">
+                    <p class="share-chn-title">誰付的錢</p>
+                    <p class="share-eng-title">Who pay</p>
+                </div>
+                <div id="pay-user-flex">
+                </div>
+                <div class="add-bot-border"></div>
+            </div>
+            <div id="who-share">
+                <div class="share-title">
+                    <p class="share-chn-title">誰要分攤</p>
+                    <p class="share-eng-title">Who share</p>
+                </div>
+                <div id="share-user-flex">
+                </div>
+                <div id="edit-share-user-container">
+                </div>
+            </div>
+        </div>
+        <div id="add-footer">
+            <img id="next-btn" src="../image/next.png">
+            <img id="save-btn-inact" src="../image/save-inact.png">
+            <img id="save-btn-act" src="../image/save-act.png">
+            <img id="add-pg-back-btn" src="../image/back-btn.png">
+        </div>
+        <div id="saveing-blur">
+            <p>Saving...</p>
+        </div>
+    </div>
+    <script src="./index.js?v8"></script>
+</body>

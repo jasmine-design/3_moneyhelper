@@ -1,0 +1,47 @@
+{
+    "size": {
+        "width": 2500,
+        "height": 843
+    },
+    "selected": true,
+    "name": "Rich Menu 1",
+    "chatBarText": "功能選單",
+    "areas": [
+        {
+            "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 833,
+                "height": 843
+            },
+            "action": {
+                "type": "message",
+                "text": "記帳推薦"
+            }
+        },
+        {
+            "bounds": {
+                "x": 833,
+                "y": 0,
+                "width": 833,
+                "height": 843
+            },
+            "action": {
+                "type": "message",
+                "text": "群組分帳"
+            }
+        },
+        {
+            "bounds": {
+                "x": 1666,
+                "y": 0,
+                "width": 834,
+                "height": 843
+            },
+            "action": {
+                "type": "message",
+                "text": "記帳提醒"
+            }
+        }
+    ]
+}

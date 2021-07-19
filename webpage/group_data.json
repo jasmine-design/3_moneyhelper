@@ -1,0 +1,296 @@
+{
+    "C020419077961b5d080d70d63c3bf1089": {
+        "user_list": {
+            "U9428941dc9c7fa6c078fed7751693cae": {
+                "user_name": "柏翔",
+                "debts": {
+                    "U8f335522faf69cb9f383eb830523db6b": -25,
+                    "U9428941dc9c7fa6c078fed7751693cae": -34,
+                    "U60bda6815f12204774d20b0388e242e2": 390,
+                    "Ue8ba954b3a92b7bf3ef9691ef5c797b6": -1032,
+                    "U5f53c96c96290921f81978df828f7c84": 403
+                }
+            },
+            "U8f335522faf69cb9f383eb830523db6b": {
+                "user_name": "怡蓉",
+                "debts": {
+                    "U9428941dc9c7fa6c078fed7751693cae": 25,
+                    "U60bda6815f12204774d20b0388e242e2": 570,
+                    "U8f335522faf69cb9f383eb830523db6b": -40,
+                    "Ue8ba954b3a92b7bf3ef9691ef5c797b6": -520,
+                    "U5f53c96c96290921f81978df828f7c84": 507
+                }
+            },
+            "Ue8ba954b3a92b7bf3ef9691ef5c797b6": {
+                "user_name": "易成",
+                "debts": {
+                    "U8f335522faf69cb9f383eb830523db6b": 520,
+                    "U9428941dc9c7fa6c078fed7751693cae": 1032,
+                    "U5f53c96c96290921f81978df828f7c84": 1060,
+                    "Ue8ba954b3a92b7bf3ef9691ef5c797b6": -60,
+                    "U60bda6815f12204774d20b0388e242e2": 1060
+                }
+            },
+            "U5f53c96c96290921f81978df828f7c84": {
+                "user_name": "林玟其",
+                "debts": {
+                    "U8f335522faf69cb9f383eb830523db6b": -507,
+                    "U9428941dc9c7fa6c078fed7751693cae": -403,
+                    "U5f53c96c96290921f81978df828f7c84": 0,
+                    "Ue8ba954b3a92b7bf3ef9691ef5c797b6": -1060
+                }
+            },
+            "U60bda6815f12204774d20b0388e242e2": {
+                "user_name": "怡安",
+                "debts": {
+                    "U8f335522faf69cb9f383eb830523db6b": -570,
+                    "U9428941dc9c7fa6c078fed7751693cae": -390,
+                    "Ue8ba954b3a92b7bf3ef9691ef5c797b6": -1060,
+                    "U60bda6815f12204774d20b0388e242e2": -50
+                }
+            }
+        },
+        "history": {
+            "06-22": {
+                "1": {
+                    "host": "U9428941dc9c7fa6c078fed7751693cae",
+                    "category": "medical",
+                    "items": "酒精",
+                    "price": "550",
+                    "share": {
+                        "U9428941dc9c7fa6c078fed7751693cae": "138",
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "138",
+                        "U5f53c96c96290921f81978df828f7c84": "137",
+                        "U8f335522faf69cb9f383eb830523db6b": "137"
+                    }
+                },
+                "2": {
+                    "host": "U9428941dc9c7fa6c078fed7751693cae",
+                    "category": "food",
+                    "items": "小赤佬",
+                    "price": "500",
+                    "share": {
+                        "U8f335522faf69cb9f383eb830523db6b": "100",
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "100",
+                        "U5f53c96c96290921f81978df828f7c84": "100",
+                        "U9428941dc9c7fa6c078fed7751693cae": "100",
+                        "U60bda6815f12204774d20b0388e242e2": "100"
+                    }
+                },
+                "3": {
+                    "host": "U9428941dc9c7fa6c078fed7751693cae",
+                    "category": "food",
+                    "items": "烏弄",
+                    "price": "500",
+                    "share": {
+                        "U9428941dc9c7fa6c078fed7751693cae": "100",
+                        "U60bda6815f12204774d20b0388e242e2": "100",
+                        "U8f335522faf69cb9f383eb830523db6b": "100",
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "100",
+                        "U5f53c96c96290921f81978df828f7c84": "100"
+                    }
+                },
+                "4": {
+                    "host": "U9428941dc9c7fa6c078fed7751693cae",
+                    "category": "food",
+                    "items": "番茄村",
+                    "price": "500",
+                    "share": {
+                        "U9428941dc9c7fa6c078fed7751693cae": "100",
+                        "U60bda6815f12204774d20b0388e242e2": "100",
+                        "U8f335522faf69cb9f383eb830523db6b": "100",
+                        "U5f53c96c96290921f81978df828f7c84": "100",
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "100"
+                    }
+                }
+            },
+            "06-23": {
+                "1": {
+                    "host": "U5f53c96c96290921f81978df828f7c84",
+                    "category": "cosmetic",
+                    "items": "我",
+                    "price": "0",
+                    "share": {
+                        "U5f53c96c96290921f81978df828f7c84": "0",
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "0",
+                        "U8f335522faf69cb9f383eb830523db6b": "0"
+                    }
+                },
+                "2": {
+                    "host": "Ue8ba954b3a92b7bf3ef9691ef5c797b6",
+                    "category": "food",
+                    "items": "螺獅粉",
+                    "price": "300",
+                    "share": {
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "60",
+                        "U8f335522faf69cb9f383eb830523db6b": "60",
+                        "U9428941dc9c7fa6c078fed7751693cae": "60",
+                        "U60bda6815f12204774d20b0388e242e2": "60",
+                        "U5f53c96c96290921f81978df828f7c84": "60"
+                    }
+                },
+                "3": {
+                    "host": "U60bda6815f12204774d20b0388e242e2",
+                    "category": "food",
+                    "items": "我的食物",
+                    "price": "100",
+                    "share": {
+                        "U9428941dc9c7fa6c078fed7751693cae": "50",
+                        "U60bda6815f12204774d20b0388e242e2": "50"
+                    }
+                },
+                "4": {
+                    "host": "U8f335522faf69cb9f383eb830523db6b",
+                    "category": "study",
+                    "items": "期末考好多",
+                    "price": "2000",
+                    "share": {
+                        "U9428941dc9c7fa6c078fed7751693cae": "500",
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "500",
+                        "U5f53c96c96290921f81978df828f7c84": "500",
+                        "U60bda6815f12204774d20b0388e242e2": "500"
+                    }
+                },
+                "5": {
+                    "host": "U9428941dc9c7fa6c078fed7751693cae",
+                    "category": "food",
+                    "items": "黃金開口笑",
+                    "price": "430",
+                    "share": {
+                        "U9428941dc9c7fa6c078fed7751693cae": "108",
+                        "U8f335522faf69cb9f383eb830523db6b": "108",
+                        "U60bda6815f12204774d20b0388e242e2": "107",
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "107"
+                    }
+                },
+                "6": {
+                    "host": "U5f53c96c96290921f81978df828f7c84",
+                    "category": "food",
+                    "items": "水果",
+                    "price": "100",
+                    "share": {
+                        "U9428941dc9c7fa6c078fed7751693cae": "34",
+                        "U8f335522faf69cb9f383eb830523db6b": "33",
+                        "U5f53c96c96290921f81978df828f7c84": "33"
+                    }
+                },
+                "7": {
+                    "host": "Ue8ba954b3a92b7bf3ef9691ef5c797b6",
+                    "category": "medical",
+                    "items": "打疫苗",
+                    "price": "50",
+                    "share": {
+                        "U9428941dc9c7fa6c078fed7751693cae": "50"
+                    }
+                },
+                "8": {
+                    "host": "Ue8ba954b3a92b7bf3ef9691ef5c797b6",
+                    "category": "medical",
+                    "items": "AZ疫苗",
+                    "price": "5000",
+                    "share": {
+                        "U60bda6815f12204774d20b0388e242e2": "1000",
+                        "U8f335522faf69cb9f383eb830523db6b": "1000",
+                        "U9428941dc9c7fa6c078fed7751693cae": "1000",
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "1000",
+                        "U5f53c96c96290921f81978df828f7c84": "1000"
+                    }
+                },
+                "9": {
+                    "host": "Ue8ba954b3a92b7bf3ef9691ef5c797b6",
+                    "category": "household",
+                    "items": "電費",
+                    "price": "1000",
+                    "share": {
+                        "Ue8ba954b3a92b7bf3ef9691ef5c797b6": "500",
+                        "U9428941dc9c7fa6c078fed7751693cae": "500"
+                    }
+                }
+            }
+        }
+    },
+    "Ccb902b83370cb7ebaa74c7af35ab2c81": {
+        "user_list": {
+            "U60bda6815f12204774d20b0388e242e2": {
+                "user_name": "怡安",
+                "debts": {
+                    "U9cbb2b5e043c403bbd0eac405dea62cc": 7300,
+                    "Ue2f7e71d3acf9688ebf4f4da20280306": 7550,
+                    "U164ce5c5cc0d0828072f46b9e485cedb": -666666
+                }
+            },
+            "U9cbb2b5e043c403bbd0eac405dea62cc": {
+                "user_name": "潘辰瑜",
+                "debts": {
+                    "U60bda6815f12204774d20b0388e242e2": -7300,
+                    "U9cbb2b5e043c403bbd0eac405dea62cc": -250,
+                    "Ue2f7e71d3acf9688ebf4f4da20280306": 250,
+                    "U164ce5c5cc0d0828072f46b9e485cedb": -666417
+                }
+            },
+            "Ue2f7e71d3acf9688ebf4f4da20280306": {
+                "user_name": "Ihsin",
+                "debts": {
+                    "U9cbb2b5e043c403bbd0eac405dea62cc": -250,
+                    "U60bda6815f12204774d20b0388e242e2": -7550,
+                    "U164ce5c5cc0d0828072f46b9e485cedb": -666667
+                }
+            },
+            "U164ce5c5cc0d0828072f46b9e485cedb": {
+                "user_name": "沈蕎萱",
+                "debts": {
+                    "U9cbb2b5e043c403bbd0eac405dea62cc": 666417,
+                    "Ue2f7e71d3acf9688ebf4f4da20280306": 666667,
+                    "U60bda6815f12204774d20b0388e242e2": 666666
+                }
+            }
+        },
+        "history": {
+            "06-23": {
+                "1": {
+                    "host": "U9cbb2b5e043c403bbd0eac405dea62cc",
+                    "category": "food",
+                    "items": "福記",
+                    "price": "1000",
+                    "share": {
+                        "U60bda6815f12204774d20b0388e242e2": "250",
+                        "U9cbb2b5e043c403bbd0eac405dea62cc": "250",
+                        "Ue2f7e71d3acf9688ebf4f4da20280306": "250",
+                        "U164ce5c5cc0d0828072f46b9e485cedb": "250"
+                    }
+                },
+                "2": {
+                    "host": "U60bda6815f12204774d20b0388e242e2",
+                    "category": "food",
+                    "items": "我的飯",
+                    "price": "100",
+                    "share": {
+                        "U9cbb2b5e043c403bbd0eac405dea62cc": "50",
+                        "Ue2f7e71d3acf9688ebf4f4da20280306": "50"
+                    }
+                },
+                "3": {
+                    "host": "U164ce5c5cc0d0828072f46b9e485cedb",
+                    "category": "household",
+                    "items": "腦袋",
+                    "price": "2000000",
+                    "share": {
+                        "Ue2f7e71d3acf9688ebf4f4da20280306": "666667",
+                        "U9cbb2b5e043c403bbd0eac405dea62cc": "666667",
+                        "U60bda6815f12204774d20b0388e242e2": "666666"
+                    }
+                },
+                "4": {
+                    "host": "U60bda6815f12204774d20b0388e242e2",
+                    "category": "traffic",
+                    "items": "吃",
+                    "price": "15000",
+                    "share": {
+                        "U9cbb2b5e043c403bbd0eac405dea62cc": "7500",
+                        "Ue2f7e71d3acf9688ebf4f4da20280306": "7500"
+                    }
+                }
+            }
+        }
+    }
+}

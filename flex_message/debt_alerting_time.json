@@ -1,0 +1,40 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "micro",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "每日欠債提醒",
+            "align": "center",
+            "style": "normal",
+            "weight": "bold"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "datetimepicker",
+              "label": "選擇時間",
+              "data": "debt_alert",
+              "mode": "time"
+            },
+            "height": "sm",
+            "style": "primary",
+            "color": "#7A6A63",
+            "margin": "lg"
+          }
+        ]
+      },
+      "styles": {
+        "body": {
+          "separatorColor": "#2B2E40"
+        }
+      }
+    }
+  ]
+}

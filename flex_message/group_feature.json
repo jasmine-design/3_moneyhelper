@@ -1,0 +1,50 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "群組功能",
+                "weight": "bold",
+                "size": "xl"
+            }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+            {
+                "type": "button",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "開始使用",
+                    "data": "開始使用",
+                    "displayText": "開始使用"
+                },
+                "style": "link"
+            },
+            {
+                "type": "separator",
+                "color": "#777777",
+                "margin": "none"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "uri",
+                    "label": "前往分帳網站",
+                    "uri": ""
+                },
+                "height": "sm",
+                "style": "link"
+            }
+        ],
+        "flex": 0,
+        "backgroundColor": "#F0F0F0"
+    }
+}

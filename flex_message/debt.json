@@ -1,0 +1,59 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "kilo",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "請依照格式輸入提醒內容",
+            "align": "center",
+            "style": "normal",
+            "weight": "bold",
+            "margin": "none",
+            "size": "md"
+          },
+          {
+            "type": "text",
+            "text": "我要記債：＿＿＿＿ ",
+            "margin": "md",
+            "style": "normal",
+            "weight": "regular",
+            "decoration": "none",
+            "contents": [],
+            "size": "sm",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "how_much",
+              "displayText": "紀錄欠債金額"
+            },
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "(範例-我要記債：小美欠我100元)",
+            "size": "sm",
+            "margin": "sm",
+            "align": "center"
+          }
+        ],
+        "borderWidth": "none",
+        "action": {
+          "type": "postback",
+          "label": "debt_content",
+          "data": "debt_content"
+        }
+      },
+      "styles": {
+        "body": {
+          "separatorColor": "#2B2E40"
+        }
+      }
+    }
+  ]
+}

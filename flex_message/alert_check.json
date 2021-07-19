@@ -1,0 +1,46 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "記得每天記帳呦~",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#F2F2F2"
+      }
+    ],
+    "backgroundColor": "#7A6A63"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "現在去記",
+          "text": "現在去記"
+        },
+        "color": "#7A6A63",
+        "margin": "none"
+      },
+      {
+        "type": "button",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "取消提醒",
+          "text": "取消提醒"
+        },
+        "color": "#7A6A63"
+      }
+    ],
+    "flex": 0
+  }
+}

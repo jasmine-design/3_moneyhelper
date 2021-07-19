@@ -1,0 +1,123 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/EioUd4EXgAEljNJ?format=jpg&name=large",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "每日記帳提醒",
+            "weight": "bold",
+            "size": "md",
+            "wrap": true,
+            "offsetTop": "sm",
+            "offsetBottom": "xs",
+            "offsetStart": "none",
+            "offsetEnd": "xxl"
+          }
+        ],
+        "spacing": "xs",
+        "paddingAll": "13px",
+        "position": "relative",
+        "margin": "xs",
+        "offsetTop": "xs",
+        "offsetBottom": "xs"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "datetimepicker",
+              "label": "選擇時間",
+              "data": "time",
+              "mode": "time"
+            },
+            "position": "relative",
+            "style": "primary",
+            "color": "#7A6A63",
+            "height": "sm",
+            "margin": "none"
+          }
+        ],
+        "spacing": "sm"
+      },
+      "styles": {
+        "body": {
+          "separatorColor": "#2B2E40"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/EioUd2hXgAAZfRM?format=jpg&name=large",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "欠債提醒",
+            "weight": "bold",
+            "size": "md",
+            "wrap": true,
+            "offsetTop": "sm",
+            "offsetBottom": "xs",
+            "offsetStart": "none",
+            "offsetEnd": "lg"
+          }
+        ],
+        "spacing": "xs",
+        "paddingAll": "13px",
+        "position": "relative",
+        "margin": "xs",
+        "offsetTop": "xs",
+        "offsetBottom": "xs"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "新增一筆欠債",
+              "text": "需要欠債提醒！"
+            },
+            "style": "primary",
+            "color": "#7A6A63",
+            "margin": "none",
+            "height": "sm"
+          }
+        ],
+        "spacing": "sm"
+      },
+      "styles": {
+        "body": {
+          "separatorColor": "#2B2E40"
+        }
+      }
+    }
+  ]
+}

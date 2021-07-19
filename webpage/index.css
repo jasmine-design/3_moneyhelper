@@ -1,0 +1,1027 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-family: "GenJyuuGothic";
+    text-align: center;
+    width: 100%;
+}
+
+.acc-debts{
+    display: block;
+    position: absolute;
+    width: 100%;
+    font-size: 8px;
+    font-family: "GenJyuuGothic";
+    font-weight: 500;
+    padding-left: 28px;
+    text-align: left;
+}
+
+
+.acc-name {
+    display: block;
+    position: absolute;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 28px;
+    text-align: left;
+}
+
+.p-title{
+    font-size: 12px;
+    font-family: "GenJyuuGothic";
+    font-weight: normal;
+}
+
+/******************************************/
+#front-cover {
+    position: fixed;
+    display: block;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100%;
+}
+
+#cover-container {
+    width: 200px;
+    height: 136px;
+    top: 30.73vh;
+
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login-user-container{
+    position: relative;
+    display: block;
+    top: calc(30.73vh + 123px);
+    height: 30%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#login-user-flex{
+    position: absolute;
+    display: flex;
+
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    overflow-y: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+#login-user-flex .user-name-container{
+    margin: 4px;
+    background-color: #F5F4EF;
+}
+
+#login-user-flex .user-name-container .user-name{
+    color: #6F6F6F;
+}
+
+
+#eng-title{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+#app-icon {
+    position: absolute;
+    width: 20.5%;
+    height: 17.64%;
+    left: 6.5%;
+    top: 23.52%;
+}
+
+#chn-title {
+    position: absolute;
+    width: 57%;
+    height: 17.64%;
+    left: 34.5%;
+    top: 23.52%;
+}
+
+#welcome-btn {
+    position: absolute;
+    width: 40%;
+    height: 19.11%;
+    left: 30%;
+    top: 80.88%;
+}
+/******************************************/
+#info-page{
+    position: fixed;
+    display: none;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100%;
+}
+
+#main-page{
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 56px;
+    width: 100vw;
+}
+
+#account-summary {
+    background-color: #515472;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 184px;
+    top: 0;
+}
+
+
+#main-page .acc-name{
+    top: 15.76%;
+    color: #FFFFFFDE;
+}
+
+#main-page .acc-debts{
+    top: 28.26%;
+    color: #FFFFFF;
+}
+
+#payback, #paid{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 14.13%;
+}
+
+.user-list-container{
+    display: flex;
+    position: absolute;
+    overflow-x: auto;
+    right: 100px;
+    left: 92px;
+    top: 0;
+}
+
+#payback .p-title, #paid .p-title{
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    line-height: 26px;
+    height: 26px;
+    width: 57px;
+    left: 35px;
+
+    font-size: 12px;
+    font-family: "GenJyuuGothic";
+    font-weight: normal;
+    
+    color: #FFFFFF;
+}
+
+#payback {
+    top: 46.73%;
+}
+
+#paid {
+    top: 71.73%;
+}
+
+#detail-btn {
+    position: absolute;
+    width: 79px;
+    height: 24px;
+    right: 13px;
+    bottom: 16px;
+}
+
+
+#group-history{
+    overflow-x: hidden;
+    display: block;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    top: 184px;
+    bottom: 0px;
+    background-color: #F5F4EF;
+}
+
+.date-record {
+    display: block;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.date {
+    display: block;
+    position: relative;
+    height: 17px;
+    line-height: 17px;
+    width: 100%;
+    margin-top: 16px;
+    padding-left: 7.2%;
+
+    font-size: 12px;
+    font-family: "GenJyuuGothic";
+    font-weight: Bold;
+    text-align: left;
+}
+
+.record-info {
+    display: block;
+    position: relative;
+    width: 86.13%;
+    height: 88px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 12px;
+    -webkit-filter: drop-shadow(2px 2px 8px rgba(101, 96, 96, 0.3));
+    filter: drop-shadow(2px 2px 8px rgba(101, 96, 96, 0.3));
+    background-color: #FFFFFF;
+}
+
+.category-icon {
+    display: block;
+    position: absolute;
+
+    height: 30%;
+    top: 35%;
+    left: 6.19%;
+}
+
+.right-border {
+    display: block;
+    position: absolute;
+
+    height: 50%;
+    top: 25%;
+    left: 21.36%;
+    border-right: 1px solid #515472;
+}
+
+.user-name-container {
+    
+    display: block;
+    width: fit-content;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 13px;
+    background-color: #EADAA6;
+}
+
+#account-summary .user-name-container {
+    position: relative;
+    left: 0;
+    margin-right: 11px;
+    white-space: nowrap;
+}
+#group-history .user-name-container {
+    position: absolute;
+    top: 27.27%;
+    left: 30.03%;
+}
+
+.user-name {
+    letter-spacing: 0.89px;
+    font-size: 10px;
+    font-family: "GenJyuuGothic";
+    font-weight: 500;
+    
+    color: #000000DE;
+}
+
+.item-name {
+    display: block;
+    position: absolute;
+
+    top: 60.22%;
+    left: 32.81%;
+    width: fit-content;
+    height: 14px;
+    line-height: 14px;
+    font-size: 10px;
+
+    color: #6F7070;
+
+}
+.total-cost {
+    display: block;
+    position: absolute;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000DE;
+}
+
+.record-info .total-cost {
+    top: 37.5%;
+    right: 5.57%;
+    height: 17px;
+    line-height: 17px;
+}
+
+.my-share {
+    display: block;
+    position: absolute;
+
+    top: 60.22%;
+    right: 5.57%;
+    width: fit-content;
+    height: 14px;
+    line-height: 14px;
+    font-size: 10px;
+
+    color: #6F7070;
+}
+
+
+/******************************/
+#bot-blur {
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    bottom: 0;
+    background-color: #F4F4F4;
+    -webkit-filter: drop-shadow(0 3 6 rgba(0, 0, 0, 0.16));
+    filter: drop-shadow(0 3 6 rgba(0, 0, 0, 0.16));
+    /*backdrop-filter: blur(1) brightness(-1) opacity(80%);*/
+}
+
+#add-btn {
+    display: block;
+    position: relative;
+    height: 100%;
+    bottom: 50%;
+    margin: auto;
+}
+
+/******************************/
+#detail-page{
+    position: absolute;
+    display: none;
+    width: 100vw;
+    left: 100vw;
+    top: 0;
+    bottom: 56px;
+}
+
+#account-container {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    background-color: #F5F4EF;
+}
+
+#detail-page .acc-name{
+    top: 34.09%;
+    color: #515472;
+}
+
+#detail-page .acc-debts{
+    top: 60.22%;
+    color: #515472;
+}
+
+.back-btn {
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 19px;
+    right: 16px;
+    bottom: 23px;
+}
+
+#account-info {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    top: 88px;
+    bottom: 0px;
+    background-color: #FFFFFF;
+}
+#payback-container {
+
+    display: block;
+    position: relative;
+    width: 100%;
+    /* height: 13.65%; */
+    height: fit-content;
+}
+#paid-container {
+
+    display: block;
+    position: relative;
+    width: 100%;
+    /* height: 13.65%; */
+    height: fit-content;
+}
+
+#border-bot {
+    position: relative;
+    left: 31.25px;
+    right: 31.25px;
+    bottom: 0;
+    border-bottom: 1px solid #B9B2B2;
+}
+
+#payback-container .p-title, #paid-container .p-title{
+    display: block;
+    position: relative;
+    text-align: left;
+    line-height: 17px;
+    height: 17px;
+    width: 100%;
+    margin-top: 23px;
+    margin-bottom: 25px;
+    padding-left: 40px;
+    
+    color: #6F7070;
+}
+
+.d-list-container{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.interact-user-container{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 26px;
+    margin-bottom: 18px;
+}
+
+.interact-user-container .user-name-container {
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+
+.interact-user-container .total-cost {
+    top: 0;
+    right: 119px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.interact-btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 30px;
+    width: 65px;
+}
+
+.history-grid {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    display: grid;
+    height: 26px;
+    line-height: 26px;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: calc(100% - 80px);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.time-stamp {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+}
+
+.history-grid .user-name-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F4EF;
+}
+
+.history-grid .user-name-container .user-name{
+    color: #6F6F6F;
+}
+
+.describe {
+    color: #707071;
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+    text-align: right;
+}
+
+.transparent-blur{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.transparent-bg{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+#confirm-popout{
+    position: absolute;
+    display: block;
+    width: 292px;
+    height: 144px;
+    top: calc(calc(100vh - 144px) / 2);
+    left: calc(calc(100% - 292px) / 2);
+    filter: drop-shadow(3px 3px 6px #00000029);
+}
+
+#payback-describe-container, #share-container {
+    position: absolute;
+    height: 88px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #F5F4EF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#payback-describe-container{
+    display: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#payback-describe-container p {
+    width: 37px;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    white-space: nowrap;
+}
+
+#payback-describe-container .user-name {
+    width:fit-content;
+}
+
+#payback-describe-container .user-name-container {
+    height: 22px;
+}
+
+
+
+#payback-describe-container input {
+    height: 22px;
+    width: 60px;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: #F5F4EF;
+
+}
+
+
+#share-container{
+    display: none;
+}
+
+#share-container p{
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+}
+
+#share-container input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 11px;
+    height: 22px;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 220px;
+    background-color: #F5F4EF;
+}
+
+.btn-container {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    left: 0;
+    bottom: 0;
+    background-color: #FDFDFA;
+
+    grid-template-rows: 26px;
+    grid-template-columns: 43px 43px;
+    justify-content: space-evenly;
+    align-content: space-around;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn-container img {
+    width: 100%;
+}
+/******************************/
+#add-page{
+    position: fixed;
+    display: none;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100%;
+}
+
+#add-header{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 90px;
+    background-color:#515472;
+}
+
+#add-account {
+    position: absolute;
+    display: block;
+    width: 301px;
+    height: 62px;
+    top: 14px;
+    left: 3.46%;
+    object-fit: cover;
+    object-position: left center;
+}
+
+#close-btn {
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 29px;
+    top: 31px;
+    right: 6.67%;
+}
+
+
+#add-content, #share-content{
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    bottom: 56px;
+    background-color: #FFFFFF;
+}
+
+#add-content{
+    display: block;
+}
+
+#share-content{
+    display: none;
+}
+
+#who-pay {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 56px;
+    padding-top: 28px;
+}
+
+#who-share{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 84px;
+    bottom: 0;
+}
+
+
+
+#edit-share-user-container{
+    display: block;
+    position: absolute;
+    overflow-y: auto;
+    top: 116.5px;
+    height: calc(100% - 127px);
+    right: 10.13%;
+    left: calc(57px + 10.67%);
+    margin-top: 10.5px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.edit-share-user {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 34px;
+    margin-bottom: 19px;
+}
+
+.share-title{
+    display: block;
+    position: absolute;
+    width: 57px;
+    height: 32px;
+    top: 30px;
+    left: 10.67%;
+}
+.share-title p{
+    display: block;
+    position: relative;
+}
+
+.share-chn-title{
+    height: 19px;
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000DE;
+}
+
+.share-eng-title{
+    height: 13px;
+    line-height: 13px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #00000099;
+}
+
+#share-user-flex, #pay-user-flex {
+    position: absolute;
+    right: 10.13%;
+    left: calc(57px + 10.67%);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#pay-user-flex {
+    overflow-x: auto;
+    top: 30px;
+    height: 34px;
+    flex-wrap: nowrap;
+}
+
+#pay-user-flex p, #edit-share-user-container .user-name{
+    font-size: 10px;
+    color: #000000DE;
+}
+
+#share-content .user-name-container{
+    height: 34px;
+    line-height: 34px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#share-user-flex {
+    overflow-y: auto;
+    top: 15.5px;
+    height: 90px;
+    flex-wrap: wrap;
+    margin-top: 5.5px;
+    margin-bottom: 5.5px;
+}
+
+#share-user-flex p{
+    font-size: 10px;
+    color: #7C7A7ADE;
+}
+
+#share-user-flex .user-name-container{
+    margin-top: 5.5px;
+    margin-bottom: 5.5px;
+    background-color: #EFEEED;
+}
+
+#edit-share-user-name{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    left: 0;
+    overflow-x: auto;
+}
+
+#edit-share-user-price{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: calc(60% - 5px);
+    right: 0;
+    overflow-x: auto;
+}
+
+#edit-share-user-container input{
+    border: none;
+    border: 1px solid #FFFFFF;
+    border-bottom: 1px solid #707070;
+    height: calc(100% - 4px);
+    text-align: right;
+    width: 80px;
+}
+
+.p-twd {
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}
+
+#add-category {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 161px;
+    padding-top: 5px;
+}
+
+
+
+.add-title{
+    display: block;
+    position: absolute;
+    height: 50px;
+    top: 30px;
+    left: 10.67%;
+}
+
+#add-content input{
+    display: block;
+    position: absolute;
+    height: 40px;
+    top: 30px;
+    left: calc(50px + 10.67%);
+    border: none;
+}
+
+#add-items input{
+    width: calc(79.2% - 60px);
+}
+
+#add-price input{
+    width: calc(79.2% - 106px);
+}
+
+#category-flex {
+    position: absolute;
+    overflow-y: auto;
+    top: 30px;
+    height: calc(100% - 30px);
+    right: 10.13%;
+    left: calc(50px + 10.67%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+#category-flex div{
+    border: 1px solid #FFFFFF;
+}
+
+#category-flex img{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    object-position: center center;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#category-flex p{
+    height: 12px;
+    line-height: 12px;
+    font-size: 8px;
+    font-weight: 500;
+    color: #707070;
+}
+
+#add-items, #add-price {
+    display: block;
+    position: relative;
+    height: 85px;
+    width: 100%;
+}
+
+.add-bot-border {
+    position: absolute;
+    display: block;
+    width: 80%;
+    left: 10%;
+    bottom: 0;
+    border-bottom: 1px solid #0000001F;
+}
+
+#twd {
+    display: block;
+    position: absolute;
+    height: 34px;
+    top: 38px;
+    right: 10.13%;
+}
+
+#next-btn, #save-btn-inact, #save-btn-act {
+    position: absolute;
+    height: 47px;
+    top: 4px;
+    right: 2.4%;
+}
+#next-btn {
+    display: block;
+}
+
+#add-pg-back-btn, #save-btn-inact, #save-btn-act{
+    display: none;
+}
+
+#add-pg-back-btn {
+    position: absolute;
+    height: 24px;
+    top: 14px;
+    left: 9.06%;
+}
+
+#add-footer{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 56px;
+    bottom: 0;
+    background-color: #F7F7FA;
+}
+
+#saveing-blur {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#saveing-blur p{
+    display: block;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    line-height: 100vh;
+    color: #FFFFFF;
+}
+
+
